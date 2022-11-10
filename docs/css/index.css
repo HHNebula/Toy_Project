@@ -27,7 +27,27 @@ body {
     align-items: center;
 }
 
+.hotel_name, .rev_btn, .hotel_info {
+    padding: auto;
+    margin: auto;
+}
 
+.hotel_info {
+    width: 70%;
+    align-items: flex-start;
+}
+
+#reserv, #login, #signup {
+    background-color: orange;
+    border-style: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+#reserv {
+    width: 120px;
+}
 
 .navi ul {
     display: flex;
