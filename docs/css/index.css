@@ -27,7 +27,9 @@ body {
     align-items: center;
 }
 
-.hotel_name, .rev_btn, .hotel_info {
+.hotel_name,
+.rev_btn,
+.hotel_info {
     padding: auto;
     margin: auto;
 }
@@ -37,7 +39,9 @@ body {
     align-items: flex-start;
 }
 
-#reserv, #login, #signup {
+#reserv,
+#login,
+#signup {
     background-color: orange;
     border-style: none;
     border-radius: 10px;
@@ -59,6 +63,7 @@ body {
 .navi ul li {
     list-style-type: none;
     padding: 0.5% 3%;
+    width: 10%;
 }
 
 .navi a:link,
@@ -79,4 +84,9 @@ body {
 
 .navi a:active {
     background-color: #f00;
+}
+
+.imgs img {
+    width: 100%;
+    float: inline-start
 }
