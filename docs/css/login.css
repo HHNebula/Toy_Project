@@ -1,3 +1,15 @@
+/* font 적용 */
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'InfinitySans-RegularA1';
+}
+
+/* index css  */
 body {
     max-width: 1400px;
     align-items: center;
@@ -124,6 +136,7 @@ body {
     margin-top: 100px;
 }
 
+
 .login_signup {
 
     padding: 3px;
@@ -132,8 +145,11 @@ body {
     background-color: orange;
     color: white;
     border-color: transparent;
-    border-radius: 3px
+    width: 56px;
+    border-radius: 10px;
+    
 }
+
 
 .logo {
     margin-top: 0px;
