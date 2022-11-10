@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="main_header">
+            <span class="title">
+                World of L4 Hotel
+            </span>
+            <span class="btn">
+                <button id="login" type="menu">Log In</button>
+                <button id="signup" type="menu">Sign Up</button>
+            </span>
+        </div>
+
+        <div class="info">
+            <div class="hotel_name">
+                <img id="logoimg" src="../img/hotelimg.png" alt="L4 호텔 제주">
+            </div>
+            <div class="hotel_info">
+                제주특별자치도 서귀포시 토평동 산15-1 백록담<br>
+                +82 064-888-9999
+            </div>
+            <div class="rev_btn">
+                <button id="reserv">지금 예약하기</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navi">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">설문하기</a></li>
+            <li><a href="">설문 통계 확인</a></li>
+        </ul>
+    </nav>
+
+    <form action="../index.html" method="get">
+        <div class="LoginPagemain">
+            <!-- 이미지 -->
+            <img src="../img/hotelimg.png" alt="L4 HOTEL" id="loginhotelimg">
+            <!-- 인사말  -->
+            <div><label for="signup">L4 호텔에 오신것을 환영합니다. 처음이신가요?</label><input type="button" value="sgin up" id="signup" class="login_signup"></div>
+            <!-- id/pw/-->
+            <div class="container">
+                <input type="text" name="ID" placeholder="ID" id="id" class="loginbox">
+                <input type="password" name="Password" placeholder="Password" id="password" class="loginbox">
+                <!-- id/pw찾기 -->
+                <a href="" id="id_find" class="findbox">아이디찾기</a> <a href="" id="pw_find" class="findbox">비밀번호찾기</a>
+                <!-- login버튼 -->
+                <input type="submit" id="loginbutton" class="loginbox" value="Log in"></input>
+                <input type="submit" name="kakaoLogin" id="login_kakao" class="loginKakaobox" value="Log in with Kakao"></input>
+            </div>
+        </div>
+    </form>
 </body>
+
 </html>
