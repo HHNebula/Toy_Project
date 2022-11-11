@@ -44,10 +44,8 @@
         </ul>
     </nav>
 
-
     <div class="CheckInList">
-
-        <form action="../html/survey_done.html" method="get">
+        <form id="formformpurin" action="../html/survey_done.html" method="post">
             <div class="textBox">
                 <ul>
                     <h1>고객 만족 설문조사</h1>
@@ -56,7 +54,7 @@
                     <div>설문을 완료해주시면 '스타벅스 기프티콘'을 추첨을 통해 매월 10분에게 제공합니다.</div>
                 </ul>
                 <label for="CheckInDay">🗓️ Check-In 날짜 선택 🗓️</label><br>
-                <select autofocus class="CheckInListBox" id="CheckInDay" required>
+                <select form="formformpurin" autofocus class="CheckInListBox" id="CheckInDay" required>
                     <option value="">나의 Check-In 선택 하기</option>
                     <option value="2">22-10-10 / 14:30:11 / JEJU L4 HOTEL / 스위트룸 </option>
                     <option value="3">23-11-11 /12:10:11 / JEJU L4 HOTEL / 패밀리룸 </option>
