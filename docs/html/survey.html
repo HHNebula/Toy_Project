@@ -1,277 +1,128 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/survey.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
-    
-        <div class="row">
-    
-            <div class="col-md-12">
-    
-            <h4>L4</h4>
-    
-            <div class="table-responsive">                 
-    
-                <form id="research" class="form-horizontal" >
-    
-                    <table class="table">
-    
-                        <thead>
-    
-                            <tr>
-    
-                                <td>항목</td>
-    
-                                <td>매우아니다/매우작다/매우적다</td>
-    
-                                <td>아니다/작다/적다</td>
-    
-                                <td>보통이다</td>
-    
-                                <td>그렇다/크다/많다</td>
-    
-                                <td>매우 그렇다/매우 크다/매우 많다</td>        
-    
-                            </tr>                    
-    
-                        </thead>
-    
-                        <tbody>
-    
-                            <tr>
-    
-                                <td>모공크기가 전박적으로 크다.</td>
-    
-                                <td><input class="skin" type="radio" name="s1" value="3"/></td>
-    
-                                <td><input class="skin" type="radio" name="s1" value="6"/></td>
-    
-    
-                                <td><input class="skin" type="radio" name="s1" value="9"/></td>
-    
-    
-                                <td><input class="skin" type="radio" name="s1" value="12"/></td>
-    
-                                <td><input class="skin" type="radio" name="s1" value="15"/></td>        
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>피지분비가 활발하게 일어난다.</td>
-    
-                                <td><input class="skin" type="radio" name="s2" value="2"/></td>
-    
-                                <td><input class="skin" type="radio" name="s2" value="4"/></td>
-    
-                                <td><input class="skin" type="radio" name="s2" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s2" value="8"/></td>
-    
-                                <td><input class="skin" type="radio" name="s2" value="10"/></td>          
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>피부에 윤기가 있다고 생각한다.</td>
-    
-                                <td><input class="skin" type="radio" name="s3" value="2"/></td>
-    
-                                <td><input class="skin" type="radio" name="s3" value="4"/></td>
-    
-                                <td><input class="skin" type="radio" name="s3" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s3" value="8"/></td>
-    
-                                <td><input class="skin" type="radio" name="s3" value="10"/></td>    
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>세안 후 피부당김이 있다.</td>
-    
-                                <td><input class="skin" type="radio" name="s4" value="15"/></td>
-    
-                                <td><input class="skin" type="radio" name="s4" value="12"/></td>
-    
-    
-                                <td><input class="skin" type="radio" name="s4" value="9"/></td>
-    
-    
-                                <td><input class="skin" type="radio" name="s4" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s4" value="3"/></td>    
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>T존에 유분기가 있다.</td>
-    
-                                <td><input class="skin" type="radio" name="s5" value="2"/></td>
-    
-                                <td><input class="skin" type="radio" name="s5" value="4"/></td>
-    
-                                <td><input class="skin" type="radio" name="s5" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s5" value="8"/></td>
-    
-                                <td><input class="skin" type="radio" name="s5" value="10"/></td> 
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>부분적이나 전체적으로 하얀 각질이 일어난다.</td>
-    
-                                <td><input class="skin" type="radio" name="s6" value="15"/></td>
-    
-                                <td><input class="skin" type="radio" name="s6" value="12"/></td>
-    
-                                <td><input class="skin" type="radio" name="s6" value="9"/></td>
-    
-                                <td><input class="skin" type="radio" name="s6" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s6" value="3"/></td> 
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>피부에 트러블이 잘 생긴다.</td>
-    
-                                <td><input class="skin" type="radio" name="s7" value="2"/></td>
-    
-                                <td><input class="skin" type="radio" name="s7" value="4"/></td>
-    
-                                <td><input class="skin" type="radio" name="s7" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s7" value="8"/></td>
-    
-                                <td><input class="skin" type="radio" name="s7" value="10"/></td> 
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>세안 후 1시간 이내에 기름이 많아진다.</td>
-    
-                                <td><input class="skin" type="radio" name="s8" value="2"/></td>
-    
-                                <td><input class="skin" type="radio" name="s8" value="4"/></td>
-    
-                                <td><input class="skin" type="radio" name="s8" value="6"/></td>
-    
-    
-                                <td><input class="skin" type="radio" name="s8" value="8"/></td>
-    
-                                <td><input class="skin" type="radio" name="s8" value="10"/></td> 
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>얼굴이 전반적으로 건조하다.</td>
-    
-                                <td><input class="skin" type="radio" name="s9" value="15"/></td>
-    
-                                <td><input class="skin" type="radio" name="s9" value="12"/></td>
-    
-                                <td><input class="skin" type="radio" name="s9" value="9"/></td>
-    
-                                <td><input class="skin" type="radio" name="s9" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s9" value="3"/></td> 
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>전체적으로 피부가 탄력적이라고 생각한다.</td>
-    
-                                <td><input class="skin" type="radio" name="s10" value="2"/></td>
-    
-                                <td><input class="skin" type="radio" name="s10" value="4"/></td>
-    
-                                <td><input class="skin" type="radio" name="s10" value="6"/></td>
-    
-                                <td><input class="skin" type="radio" name="s10" value="8"/></td>
-    
-                                <td><input class="skin" type="radio" name="s10" value="10"/></td> 
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>평소에 피부 수분이 부족하다고 생각한다.</td>
-    
-                                <td><input class="skin1" type="radio" name="s11" value="1"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s11" value="2"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s11" value="3"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s11" value="4"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s11" value="5"/></td>    
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>입술이 쉽게 건조해진다.</td>
-    
-                                <td><input class="skin1" type="radio" name="s12" value="1"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s12" value="2"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s12" value="3"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s12" value="4"/></td>
-    
-                                <td><input class="skin1" type="radio" name="s12" value="5"/></td>
-    
-                            </tr>
-    
-                            <tr>
-    
-                                <td>피부가 작은 자극에도 쉽게 붉어진다.</td>
-    
-                                <td><input type="radio" name="s13" value="0"/></td>
-    
-                                <td><input type="radio" name="s13" value="0"/></td>
-    
-                                <td><input type="radio" name="s13" value="0"/></td>
-    
-                                <td><input type="radio" name="s13" value="0"/></td>
-    
-                                <td><input type="radio" name="s13" value="1"/></td>
-    
-                            </tr>
-    
-                        </tbody>
-    
-                    </table>  
-    
-                </form>
-    
-                <button id="actres" class="btn btn-primary" data-title="결과보기" style="width: 100%;" data-toggle="modal" data-target="#result" >결과보기</button>   
-    
-            </div>
-    
-        <!-- /.modal-content --> 
-    
-      </div>
-    
-          <!-- /.modal-dialog --> 
-    
+
+    <header>
+        <div class="main_header">
+            <span class="title">
+                World of L4 Hotel
+            </span>
+            <span class="btn">
+                <button id="login" type="menu">Log In</button>
+                <button id="signup" type="menu">Sign Up</button>
+            </span>
         </div>
+
+        <div class="info">
+            <div class="hotel_name">
+                <img id="logoimg" src="../img/hotelimg.png" alt="L4 호텔 제주">
+            </div>
+            <div class="hotel_info">
+                제주특별자치도 서귀포시 토평동 산15-1 백록담<br>
+                +82 064-888-9999
+            </div>
+            <div class="rev_btn">
+                <button id="reserv">지금 예약하기</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navi">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">설문하기</a></li>
+            <li><a href="">설문 통계 확인</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="CheckInList">
+
+        <form action="../html/review.html" method="get">
+            <div class="textBox">
+                <ul>
+                    <h1>고객 만족 설문조사</h1>
+                    <div>저희 JEJU L4 HOTEL 은 서비스 품질 향상을 위해 고객 만족도 설문을 운영하고 있습니다.</div>
+                    <div>객실의 Check-In이력 1건당 1개의 설문이 가능합니다.</div>
+                    <div>설문을 완료해주시면 '스타벅스 기프티콘'을 추첨을 통해 매월 10분에게 제공합니다.</div>
+                </ul>
+
+                <label for="CheckInDay">🗓️ Check-In 날짜 선택 🗓️</label><br>
+                <select autofocus class="CheckInListBox" id="CheckInDay">
+                    <option>My Check-In 선택 하기</option>
+                    <option>22-10-10 / 스위트룸 </option>
+                    <option>23-11-11 / 패밀리룸 </option>
+                    <option>23-11-7 / 스위트룸 </option>
+                </select>
+
+                <br>
+                <div class="QBox"> 1. 호텔을 찾아오시는 길은 편리하셨습니까?</div>
+                <input type="radio" id="traffic_Dissatisfied" name="traffic" value="Dissatisfied"><label
+                    for="traffic_Dissatisfied">매우불만</label>
+                <input type="radio" id="traffic_Complained" name="traffic" value="Complained"><label
+                    for="traffic_Complained">불만</label>
+                <input type="radio" id="traffic_Satisfied" name="traffic" value="Satisfied"><label
+                    for="traffic_Satisfied">만족</label>
+                <input type="radio" id="traffic_Very_satisfied" name="traffic" value="Very_satisfied"><label
+                    for="traffic_Very_satisfied">매우만족</label>
+
+
+                <div class="QBox">2. 호텔의 직원들은 얼마나 친절하였습니까?</div>
+                <input type="radio" id="kind_Dissatisfied" name="kind" value="Dissatisfied"><label
+                    for="kind_Dissatisfied">매우불만</label>
+                <input type="radio" id="kind_Complained" name="kind" value="Complained"><label
+                    for="kind_Complained">불만</label>
+                <input type="radio" id="kind_Satisfied" name="kind" value="Satisfied"><label
+                    for="kind_Satisfied">만족</label>
+                <input type="radio" id="kind_Very_satisfied" name="kind" value="Very_satisfied"><label
+                    for="kind_Very_satisfied">매우만족</label>
+
+                <div class="QBox">3. 호텔의 전체적인 청결도는 만족하셨습니까?</div>
+                <input type="radio" id="clean_Dissatisfied" name="clean" value="Dissatisfied"><label
+                    for="clean_Dissatisfied">매우불만</label>
+                <input type="radio" id="clean_Complained" name="clean" value="Complained"><label
+                    for="clean_Complained">불만</label>
+                <input type="radio" id="clean_Satisfied" name="clean" value="Satisfied"><label
+                    for="clean_Satisfied">만족</label>
+                <input type="radio" id="clean_Very_satisfied" name="clean" value="Very_satisfied"><label
+                    for="clean_Very_satisfied">매우만족</label>
+
+                <div class="QBox">4. 식당의 음식 만족도는 어떠셨습니까?</div>
+                <input type="radio" id="food_Dissatisfied" name="food" value="Dissatisfied"><label
+                    for="food_Dissatisfied">매우불만</label>
+                <input type="radio" id="food_Complained" name="food" value="Complained"><label
+                    for="food_Complained">불만</label>
+                <input type="radio" id="food_Satisfied" name="food" value="Satisfied"><label
+                    for="food_Satisfied">만족</label>
+                <input type="radio" id="food_Very_satisfied" name="food" value="Very_satisfied"><label
+                    for="food_Very_satisfied">매우만족</label>
+
+                <div class="QBox">5. 부대시설 이용은 편리하셨습니까?</div>
+                <input type="radio" id="facility_Dissatisfied" name="facility" value="Dissatisfied"><label
+                    for="facility_Dissatisfied">매우불만</label>
+                <input type="radio" id="facility_Complained" name="facility" value="Complained"><label
+                    for="facility_Complained">불만</label>
+                <input type="radio" id="facility_Satisfied" name="facility" value="Satisfied"><label
+                    for="facility_Satisfied">만족</label>
+                <input type="radio" id="facility_Very_satisfied" name="facility" value="Very_satisfied"><label
+                    for="facility_Very_satisfied">매우만족</label>
+
+                <div class="QBox">L4 호텔을 이용하며 느끼신 불편한 점이나 바라는 점을 남겨주세요.</div>
+                <textarea placeholder="호텔을 이용하며 느끼신 불편한 점이나 바라는 점을 남겨주세요." name="content" id="content_id"
+                    required></textarea>
+                <br>
+                <input type="submit" id="surveyfinish" value="제출하기"></input>
+            </div>
+        </form>
+    </div>
 </body>
-</html> -->
+
+</html>
