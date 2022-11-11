@@ -1,35 +1,187 @@
+/* font 적용 */
+@font-face {
+        font-family: 'InfinitySans-RegularA1';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
 
-/* td , h4{text-align:center;}
+* {
+        font-family: 'InfinitySans-RegularA1';
+}
 
-tbody tr td:first-child {text-align:left;}
+/* index css  */
+body {
+        max-width: 1400px;
+        align-items: center;
+        margin: 0 auto;
+}
 
-input[type='radio'] {visibility: hidden;}
+.main_header {
+        padding: 1% 1%;
+        height: 10%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom-color: gray;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+}
 
-input[type='radio']:after {width:1.5em;height:1.5em;
+#logoimg {
+        width: 200px;
+}
 
-        border-radius: 0.75em;
+.info {
+        padding: 1% 3%;
+        height: 3%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
 
-        background-color: #fff;
+.hotel_name,
+.rev_btn,
+.hotel_info {
+        padding: auto;
+        margin: auto;
 
-        content: '';
+}
 
-        display: inline-block;
+.hotel_info {
+        width: 70%;
+        align-items: flex-start;
+}
 
-        visibility: visible;
+#reserv,
+#login,
+#signup {
+        background-color: orange;
+        border-style: none;
+        border-radius: 10px;
+        width: 80px;
+        height: 40px;
+}
 
-        border: 2px solid #8d8d8e;}
+#reserv {
+        width: 120px;
+}
 
-input[type='radio']:checked:after {
+.navi ul {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        justify-content: center;
+}
 
-        background-color: #007bff;
+.navi ul li {
+        list-style-type: none;
+        padding: 0.5% 3%;
+        width: 10%;
+}
 
-        content: '';
+.navi a:link,
+.navi a:visited {
+        display: block;
+        font-size: 14px;
+        color: #000;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+}
 
-        display: inline-block;
+.navi a:hover,
+.navi a:focus {
+        background-color: #222;
+        color: #fff;
+}
 
-        visibility: visible;
+.navi a:active {
+        background-color: #f00;
+}
 
-        border: 2px solid #8d8d8e;
+.imgs img {
+        width: 100%;
+        float: inline-start
+}
 
- } */
 
+/* survey css  */
+
+.img_survey {
+        align: center;
+}
+
+.textBox {
+        width: auto;
+        height: auto;
+        margin: 100px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgba(255, 239, 214, 0.693);
+
+        padding: 20px;
+
+
+
+}
+
+
+input:checked+label {
+        accent-color: red;
+        color: red;
+        font-weight: bold;
+}
+
+.CheckInList {
+        border: 1px solid orange;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+}
+
+.QBox {
+        width: auto;
+        margin: 20px;
+        background-color: rgba(255, 166, 0, 0.65);
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        color: white;
+}
+
+
+.CheckInListBox {
+        background-color: orange;
+        color: white;
+        border-color: transparent;
+        width: 460px;
+        border-radius: 10px;
+        margin: 20px;
+        padding: auto;
+        text-align: center;
+
+}
+
+textarea {
+        width: 400px;
+        height: 300px;
+        resize: none;
+        margin: 10px;
+        margin-bottom: 20px;
+}
+
+#surveyfinish {
+        width: auto;
+        background-color: orange;
+        border-color: transparent;
+        color: white;
+        height: 30px;
+        border-radius: 10px;
+}
