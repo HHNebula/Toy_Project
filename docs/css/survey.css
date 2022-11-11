@@ -149,11 +149,11 @@ input:checked+label {
 .QBox {
         width: auto;
         margin: 20px;
-        background-color: rgba(255, 166, 0, 0.65);
+        background-color: rgba(255, 216, 138, 0.218);
         display: flex;
         justify-content: center;
         border-radius: 10px;
-        color: white;
+        color: rgb(0, 0, 0);
 }
 
 
@@ -161,7 +161,7 @@ input:checked+label {
         background-color: orange;
         color: white;
         border-color: transparent;
-        width: 460px;
+        width: auto;
         border-radius: 10px;
         margin: 20px;
         padding: auto;
@@ -177,7 +177,7 @@ textarea {
         margin-bottom: 20px;
 }
 
-#surveyfinish {
+.finishBT {
         width: auto;
         background-color: orange;
         border-color: transparent;

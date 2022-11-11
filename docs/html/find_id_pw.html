@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/survey.css">
+    <link rel="stylesheet" href="../css/login.css">
     <title>Document</title>
 </head>
 
 <body>
-
     <header>
         <div class="main_header">
             <span class="title">
@@ -27,7 +26,6 @@
                 <img id="logoimg" src="../img/hotelimg.png" alt="L4 호텔 제주">
             </div>
             <div class="hotel_info">
-                <h4>L4 호텔 제주</h4>
                 제주특별자치도 서귀포시 토평동 산15-1 백록담<br>
                 +82 064-888-9999
             </div>
@@ -36,6 +34,7 @@
             </div>
         </div>
     </header>
+
     <nav class="navi">
         <ul>
             <li><a href="">Home</a></li>
@@ -44,18 +43,28 @@
         </ul>
     </nav>
 
-    <form action="./review.html" method="">
-        <div class="textBox">
-            <ul>
-                <h1>고객 만족 설문조사</h1>
-                <h3>설문제출이 완료 되었습니다.</h3>
-                <div>만족도 설문에 응해주셔서 감사합니다.</div>
-                <div>더 나은 서비스를 제공할 수 있도록 노력하겠습니다.</div>
-            </ul>
-            <br>
-            <input type="button" class="finishBT" value="설문 통계 보러가기"></input>
+    <form action="../index.html" method="get">
+        <div class="LoginPagemain">
+
+            <!-- 이미지 -->
+            <img src="../img/hotelimg.png" alt="L4 HOTEL" id="loginhotelimg">
+            <!-- 인사말   -->
+            <div>안녕하세요? L4 Hotel 입니다. 아이디 / 패스워드를 분실하였나요?<br>
+                아래 본인을 증명할 수 있는 자료 첨부 시 확인 후 3일 내 담당자가 직접 연락드리겠습니다. 감사합니다.</div><br>
+
+            <!-- id/pw/-->
+            <div>
+                <input type="text" name="name" placeholder="이름" id="nameid" class="find ">
+                <input type="text" name="phone" placeholder="휴대폰번호" id="phoneid" class="find ">
+            </div>
+            <!-- 파일 첨부 -->
+            <label for="upload_id">🔗본인 증빙 자료 첨부</label><input type="file" id="upload_id" class="find"
+                value="findme"></input>
+                <!-- 담당자 연락받기 -->
+            <input type="submit" id="callbutton" class="loginbox" value="담당자에게 연락받기"></input>
+
         </div>
     </form>
-    </body>
+</body>
 
 </html>
