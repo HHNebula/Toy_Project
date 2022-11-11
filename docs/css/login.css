@@ -163,6 +163,14 @@ body {
     color: white;
     height: 30px;
 }
+#callbutton {
+    width: auto;
+    background-color: orange;
+    border-color: transparent;
+    color: white;
+    height: 30px;
+    margin-bottom: 100px;
+}
 
 .loginbox {
     display: block;
@@ -195,4 +203,18 @@ body {
 .findbox {
     text-decoration: none;
     font-size: 0.75rem;
+}
+
+.find {
+    display: flex;
+    padding: 3px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    background-color: white;
+    color: orange;
+    margin-top: 3px;
+    width: 200px;
+    height: 30px;
+
+
 }
