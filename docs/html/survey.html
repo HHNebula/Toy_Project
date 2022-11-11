@@ -45,7 +45,7 @@
     </nav>
 
     <div class="CheckInList">
-        <form id="formformpurin" action="./survey_done.html" method="get">
+        <form action="./survey_done.html" method="get">
             <div class="textBox">
                 <ul>
                     <h1>고객 만족 설문조사</h1>
@@ -54,7 +54,7 @@
                     <div>설문을 완료해주시면 '스타벅스 기프티콘'을 추첨을 통해 매월 10분에게 제공합니다.</div>
                 </ul>
                 <label for="CheckInDay">🗓️ Check-In 날짜 선택 🗓️</label><br>
-                <select form="formformpurin" autofocus class="CheckInListBox" id="CheckInDay" required>
+                <select autofocus class="CheckInListBox" id="CheckInDay" required>
                     <option value="">나의 Check-In 선택 하기</option>
                     <option value="2">22-10-10 / 14:30:11 / JEJU L4 HOTEL / 스위트룸 </option>
                     <option value="3">23-11-11 /12:10:11 / JEJU L4 HOTEL / 패밀리룸 </option>
@@ -116,10 +116,44 @@
                 <div class="QBox">L4 호텔을 이용하며 느끼신 불편한 점이나 바라는 점을 남겨주세요.</div>
                 <textarea placeholder="호텔을 이용하며 느끼신 불편한 점이나 바라는 점을 남겨주세요." name="content" id="content_id"></textarea>
                 <br>
-                <input type="submit" id="surveyfinish" value="제출하기"></input>
+                <button type="submit" id="surveyfinish">제출하기</button>
             </div>
         </form>
     </div>
+
+    <footer>
+        <div class="footer_box">
+            <div class="column_box">
+                아렌달 그룹
+                <img src="../img/arendelle.jpg" alt="arendelle" id="arendelle">
+                주식회사 Frozen ( L4 Hotel )
+                <img src="../img/frozen.png" alt="frozen" id="frozen">
+                공동대표 : 김안나 | 박엘사<br>
+                COO & CSO : 안올라프
+            </div>
+            <div class="row_box">
+                <div>
+                    개인정보 보호 정책
+                </div>
+                <div>
+                    이용 약관
+                </div>
+                <div>
+                    쿠키 센터
+                </div>
+                <div>
+                    보안 및 안전
+                </div>
+                <div>
+                    본인의 개인정보를 판매하지 마십시오
+                </div>
+                <div>
+                    @ 2022 L4 Hotel
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

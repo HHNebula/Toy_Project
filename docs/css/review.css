@@ -142,6 +142,8 @@ body {
 
 table {
     width: 100%;
+    border-collapse: separate;
+    border: 1px solid black;
 }
 
 td,
@@ -151,7 +153,9 @@ th {
 }
 
 th {
-    background-color: beige;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
 }
 
 .card {
@@ -167,4 +171,33 @@ th {
 .card_title {
     font-size: large;
     font-weight: bold;
+}
+
+.footer_box {
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 2%;
+    border-top: 2px solid gray;
+}
+
+.column_box {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size: medium;
+}
+
+#frozen,
+#arendelle {
+    width: 10%;
+}
+
+.row_box {
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
 }

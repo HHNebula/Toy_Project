@@ -149,3 +149,32 @@ tr {
 td {
     padding: 10px;
 }
+
+.footer_box {
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 2%;
+    border-top: 2px solid gray;
+}
+
+.column_box {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size: medium;
+}
+
+#frozen,
+#arendelle {
+    width: 10%;
+}
+
+.row_box {
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
