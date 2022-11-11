@@ -9,6 +9,11 @@
     font-family: 'InfinitySans-RegularA1';
 }
 
+a {
+    text-decoration-line: none;
+    color: #000;
+}
+
 body {
     max-width: 1400px;
     align-items: center;

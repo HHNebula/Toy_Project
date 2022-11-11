@@ -10,6 +10,11 @@
         font-family: 'InfinitySans-RegularA1';
 }
 
+a {
+        text-decoration-line: none;
+        color: #000;
+}
+
 /* index css  */
 body {
         max-width: 1400px;
@@ -59,7 +64,7 @@ body {
 
 #reserv,
 #login,
-#signup {
+#signup, #surveyfinish {
         background-color: orange;
         border-style: none;
         border-radius: 10px;

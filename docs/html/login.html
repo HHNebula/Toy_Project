@@ -16,8 +16,8 @@
                 World of L4 Hotel
             </span>
             <span class="btn">
-                <button id="login" type="menu">Log In</button>
-                <button id="signup" type="menu">Sign Up</button>
+                <button id="login" type="menu"><a href="./login.html">Log In</a></button>
+                <button id="signup" type="menu"><a href="./signup.html">Sign Up</a></button>
             </span>
         </div>
 
@@ -38,9 +38,9 @@
 
     <nav class="navi">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">설문하기</a></li>
-            <li><a href="">설문 통계 확인</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./survey.html">설문하기</a></li>
+            <li><a href="./review.html">설문 통계 확인</a></li>
         </ul>
     </nav>
 
@@ -49,16 +49,21 @@
             <!-- 이미지 -->
             <img src="../img/hotelimg.png" alt="L4 HOTEL" id="loginhotelimg">
             <!-- 인사말 & sign up  -->
-            <div><label for="signup">L4 호텔에 오신것을 환영합니다. 처음이신가요?</label><input type="button" value="sgin up" id="login_signup" class="login_signup"></div>
+            <div>
+                <label for="signup">L4 호텔에 오신것을 환영합니다. 처음이신가요?</label>
+                <button class="login_signup" id="login_signup" type="menu"><a href="./signup.html">Sign Up</a></button>
+            </div>
             <!-- id/pw/-->
             <div class="container">
-                <input type="text" name="ID" placeholder="ID" id="id" class="loginbox">
-                <input type="password" name="Password" placeholder="Password" id="password" class="loginbox">
+                <input type="text" name="ID" placeholder="ID" id="id" class="loginbox" required>
+                <input type="password" name="Password" placeholder="Password" id="password" class="loginbox" required>
                 <!-- id/pw찾기 -->
-                <a href="./find_id_pw.html" id="id_find" class="findbox">아이디찾기</a> <a href="./find_id_pw.html" id="pw_find" class="findbox">비밀번호찾기</a>
+                <a href="./find_id_pw.html" id="id_find" class="findbox">아이디찾기</a> <a href="./find_id_pw.html"
+                    id="pw_find" class="findbox">비밀번호찾기</a>
                 <!-- login버튼 -->
                 <input type="submit" id="loginbutton" class="loginbox" value="Log in"></input>
-                <input type="submit" name="kakaoLogin" id="login_kakao" class="loginKakaobox" value="Log in with Kakao"></input>
+                <input type="submit" name="kakaoLogin" id="login_kakao" class="loginKakaobox"
+                    value="Log in with Kakao"></input>
             </div>
         </div>
     </form>

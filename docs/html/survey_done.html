@@ -17,8 +17,8 @@
                 World of L4 Hotel
             </span>
             <span class="btn">
-                <button id="login" type="menu">Log In</button>
-                <button id="signup" type="menu">Sign Up</button>
+                <button id="login" type="menu"><a href="./login.html">Log In</a></button>
+                <button id="signup" type="menu"><a href="./signup.html">Sign Up</a></button>
             </span>
         </div>
 
@@ -38,24 +38,24 @@
     </header>
     <nav class="navi">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">설문하기</a></li>
-            <li><a href="">설문 통계 확인</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./survey.html">설문하기</a></li>
+            <li><a href="./review.html">설문 통계 확인</a></li>
         </ul>
     </nav>
 
-    <form action="./review.html" method="">
-        <div class="textBox">
-            <ul>
-                <h1>고객 만족 설문조사</h1>
-                <h3>설문제출이 완료 되었습니다.</h3>
-                <div>만족도 설문에 응해주셔서 감사합니다.</div>
-                <div>더 나은 서비스를 제공할 수 있도록 노력하겠습니다.</div>
-            </ul>
-            <br>
-            <input type="button" class="finishBT" value="설문 통계 보러가기"></input>
-        </div>
-    </form>
-    </body>
+    <div class="textBox">
+        <ul>
+            <h1>고객 만족 설문조사</h1>
+            <h3>설문제출이 완료 되었습니다.</h3>
+            <div>만족도 설문에 응해주셔서 감사합니다.</div>
+            <div>더 나은 서비스를 제공할 수 있도록 노력하겠습니다.</div>
+        </ul>
+        <br>
+        <span>
+            <button class="finishBT" id="nextpage" type="menu"><a href="./review.html">설문 통계 보러가기</a></button>
+        </span>
+    </div>
+</body>
 
 </html>

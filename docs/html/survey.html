@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/survey.css">
-    <title>Document</title>
+    <title>L4 Hotel - 제주 - 설문하기</title>
 </head>
 
 <body>
@@ -17,8 +17,8 @@
                 World of L4 Hotel
             </span>
             <span class="btn">
-                <button id="login" type="menu">Log In</button>
-                <button id="signup" type="menu">Sign Up</button>
+                <button id="login" type="menu"><a href="./login.html">Log In</a></button>
+                <button id="signup" type="menu"><a href="./signup.html">Sign Up</a></button>
             </span>
         </div>
 
@@ -38,9 +38,9 @@
     </header>
     <nav class="navi">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">설문하기</a></li>
-            <li><a href="">설문 통계 확인</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./survey.html">설문하기</a></li>
+            <li><a href="./review.html">설문 통계 확인</a></li>
         </ul>
     </nav>
 
@@ -60,14 +60,14 @@
                 <select autofocus class="CheckInListBox" id="CheckInDay">
                     <option>나의 Check-In 선택 하기</option>
                     <option>22-10-10 / 14:30:11 / JEJU L4 HOTEL / 스위트룸 </option>
-                    <option>23-11-11 /12:10:11  / JEJU L4 HOTEL / 패밀리룸 </option>
+                    <option>23-11-11 /12:10:11 / JEJU L4 HOTEL / 패밀리룸 </option>
                     <option>23-11-7 / 18:55:00 / JEJU L4 HOTEL / 스위트룸 </option>
                 </select>
 
                 <br>
                 <div class="QBox"> 1. 호텔을 찾아오시는 길은 편리하셨습니까?</div>
-                <input type="radio" id="traffic_Dissatisfied" name="traffic" value="Dissatisfied"><label
-                    for="traffic_Dissatisfied">매우불만</label>
+                <input type="radio" id="traffic_Dissatisfied" name="traffic" value="Dissatisfied" required><label
+                    for="traffic_Dissatisfied" >매우불만</label>
                 <input type="radio" id="traffic_Complained" name="traffic" value="Complained"><label
                     for="traffic_Complained">불만</label>
                 <input type="radio" id="traffic_Satisfied" name="traffic" value="Satisfied"><label
@@ -77,7 +77,7 @@
 
 
                 <div class="QBox">2. 호텔의 직원들은 얼마나 친절하였습니까?</div>
-                <input type="radio" id="kind_Dissatisfied" name="kind" value="Dissatisfied"><label
+                <input type="radio" id="kind_Dissatisfied" name="kind" value="Dissatisfied" required><label
                     for="kind_Dissatisfied">매우불만</label>
                 <input type="radio" id="kind_Complained" name="kind" value="Complained"><label
                     for="kind_Complained">불만</label>
@@ -87,7 +87,7 @@
                     for="kind_Very_satisfied">매우만족</label>
 
                 <div class="QBox">3. 호텔의 전체적인 청결도는 만족하셨습니까?</div>
-                <input type="radio" id="clean_Dissatisfied" name="clean" value="Dissatisfied"><label
+                <input type="radio" id="clean_Dissatisfied" name="clean" value="Dissatisfied" required><label
                     for="clean_Dissatisfied">매우불만</label>
                 <input type="radio" id="clean_Complained" name="clean" value="Complained"><label
                     for="clean_Complained">불만</label>
@@ -97,7 +97,7 @@
                     for="clean_Very_satisfied">매우만족</label>
 
                 <div class="QBox">4. 식당의 음식 만족도는 어떠셨습니까?</div>
-                <input type="radio" id="food_Dissatisfied" name="food" value="Dissatisfied"><label
+                <input type="radio" id="food_Dissatisfied" name="food" value="Dissatisfied" required><label
                     for="food_Dissatisfied">매우불만</label>
                 <input type="radio" id="food_Complained" name="food" value="Complained"><label
                     for="food_Complained">불만</label>
@@ -107,7 +107,7 @@
                     for="food_Very_satisfied">매우만족</label>
 
                 <div class="QBox">5. 부대시설 이용은 편리하셨습니까?</div>
-                <input type="radio" id="facility_Dissatisfied" name="facility" value="Dissatisfied"><label
+                <input type="radio" id="facility_Dissatisfied" name="facility" value="Dissatisfied" required><label
                     for="facility_Dissatisfied">매우불만</label>
                 <input type="radio" id="facility_Complained" name="facility" value="Complained"><label
                     for="facility_Complained">불만</label>
@@ -117,8 +117,7 @@
                     for="facility_Very_satisfied">매우만족</label>
 
                 <div class="QBox">L4 호텔을 이용하며 느끼신 불편한 점이나 바라는 점을 남겨주세요.</div>
-                <textarea placeholder="호텔을 이용하며 느끼신 불편한 점이나 바라는 점을 남겨주세요." name="content" id="content_id"
-                    required></textarea>
+                <textarea placeholder="호텔을 이용하며 느끼신 불편한 점이나 바라는 점을 남겨주세요." name="content" id="content_id"></textarea>
                 <br>
                 <input type="submit" id="surveyfinish" value="제출하기"></input>
             </div>

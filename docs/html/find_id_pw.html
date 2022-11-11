@@ -16,8 +16,8 @@
                 World of L4 Hotel
             </span>
             <span class="btn">
-                <button id="login" type="menu">Log In</button>
-                <button id="signup" type="menu">Sign Up</button>
+                <button id="login" type="menu"><a href="./login.html">Log In</a></button>
+                <button id="signup" type="menu"><a href="./signup.html">Sign Up</a></button>
             </span>
         </div>
 
@@ -26,6 +26,7 @@
                 <img id="logoimg" src="../img/hotelimg.png" alt="L4 호텔 제주">
             </div>
             <div class="hotel_info">
+                <h4>L4 호텔 제주</h4>
                 제주특별자치도 서귀포시 토평동 산15-1 백록담<br>
                 +82 064-888-9999
             </div>
@@ -37,9 +38,9 @@
 
     <nav class="navi">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">설문하기</a></li>
-            <li><a href="">설문 통계 확인</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./survey.html">설문하기</a></li>
+            <li><a href="./review.html">설문 통계 확인</a></li>
         </ul>
     </nav>
 
@@ -54,13 +55,13 @@
 
             <!-- id/pw/-->
             <div>
-                <input type="text" name="name" placeholder="이름" id="nameid" class="find ">
-                <input type="text" name="phone" placeholder="휴대폰번호" id="phoneid" class="find ">
+                <input type="text" name="name" placeholder="이름" id="nameid" class="find" required>
+                <input type="text" name="phone" placeholder="휴대폰번호" id="phoneid" class="find" required>
             </div>
             <!-- 파일 첨부 -->
-            <label for="upload_id">🔗본인 증빙 자료 첨부</label><input type="file" id="upload_id" class="find"
-                value="findme"></input>
-                <!-- 담당자 연락받기 -->
+            <label for="upload_id">🔗본인 증빙 자료 첨부</label><input type="file" id="upload_id" class="find" value="findme"
+                required></input>
+            <!-- 담당자 연락받기 -->
             <input type="submit" id="callbutton" class="loginbox" value="담당자에게 연락받기"></input>
 
         </div>
