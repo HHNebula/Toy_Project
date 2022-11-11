@@ -17,7 +17,7 @@ body {
     border-bottom-width: 1px;
 }
 
-#logoimg{
+#logoimg {
     width: 200px;
 }
 
@@ -106,7 +106,7 @@ body {
     flex-wrap: wrap;
 }
 
-.main_section > div {
+.main_section>div {
     max-width: 70%;
     margin: 3%;
     width: 70%;
@@ -118,18 +118,36 @@ body {
     padding: 5%;
 }
 
-table {
+.review_table {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    text-align: center;
+    width: 10%;
+}
+
+th {
+    background-color: beige;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
-tr {
-    height: 50px;
-}
-
-td {
-    padding: 10px;
+.card_title {
+    font-size: large;
+    font-weight: bold;
 }
