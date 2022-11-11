@@ -64,7 +64,8 @@ body {
 
 #reserv,
 #login,
-#signup, #surveyfinish {
+#signup,
+#surveyfinish {
         background-color: orange;
         border-style: none;
         border-radius: 10px;
@@ -116,11 +117,6 @@ body {
 
 
 /* survey css  */
-
-.img_survey {
-        align: center;
-}
-
 .textBox {
         width: auto;
         height: auto;

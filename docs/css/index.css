@@ -33,7 +33,7 @@ body {
     border-bottom-width: 1px;
 }
 
-#logoimg{
+#logoimg {
     width: 200px;
 }
 
@@ -118,11 +118,11 @@ body {
 
 .mc-note {
     text-align: center;
-    transform: translate( -50%, -50% );
+    transform: translate(-50%, -50%);
     top: 50%;
-	left: 50%;
+    left: 50%;
     text-align: center;
-	position: absolute;
+    position: absolute;
     color: #fff;
     border: 3px solid white;
     background-color: #00000073;
