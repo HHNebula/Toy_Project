@@ -128,13 +128,8 @@ body {
         border-radius: 20px;
         text-align: center;
         background-color: rgba(255, 239, 214, 0.693);
-
         padding: 20px;
-
-
-
 }
-
 
 input:checked+label {
         accent-color: red;
