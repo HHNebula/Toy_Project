@@ -31,7 +31,7 @@
                 +82 064-888-9999
             </div>
             <div class="rev_btn">
-                <button id="reserv">지금 예약하기</button>
+                <button id="reserv" onclick="alert('현재 만실로 예약이 불가합니다.')">지금 예약하기</button>
             </div>
         </div>
     </header>
@@ -61,8 +61,8 @@
                 <a href="./find_id_pw.html" id="id_find" class="findbox">아이디찾기</a> <a href="./find_id_pw.html"
                     id="pw_find" class="findbox">비밀번호찾기</a>
                 <!-- login버튼 -->
-                <input type="submit" id="loginbutton" class="loginbox" value="Log in"></input>
-                <input type="submit" name="kakaoLogin" id="login_kakao" class="loginKakaobox"
+                <input type="submit" id="loginbutton" class="loginbox" value="Log in" onclick="alert('정상 로그인되었습니다! 이제 설문을 작성해보세요!')"></input>
+                <input type="submit" name="kakaoLogin" id="login_kakao" class="loginKakaobox" onclick="alert('KAKAO 로그인되었습니다! 이제 설문을 작성해보세요!')"
                     value="Log in with Kakao"></input>
             </div>
         </div>
