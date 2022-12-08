@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of L4 - Jeju</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="./css/refactoring.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body class="pt-5">
+    <!-- HEADER : NAV-->
+    <header
+        class="container-fluid bg-dark d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 fixed-top">
+        <a  class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none fs-4">
+            <img src="./docs/refactoring/img/logo.png" alt="" style="height: 30px;">
+            <span class="ms-2">World of L4 Hotel</span>
+        </a>
+    </header>
+
+
+
+
+
+    </header>
+
+    <!-- Main-->
+    <main class="container mt-5 pt-5 py-sm-5 py-md-0 px-5 px-lg-5">
+        <!-- Hotel info -->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./docs/img/L4HOTEL_YOUTUBE.gif"
+                    alt="..." /></div>
+            <div class="col-lg-5">
+                <p class="fw-bold fs-1">L4 Hotel - Jeju Island</p>
+                <p class="fw-bold fs-4">Project period</p>
+                <p>[1차] 22.11.10~22.11.11
+                <p>[2차] 22.12.8~22.12.9</p>
+                <p class="fw-bold fs-4">Team Name
+                <p>ㅎㅎ</p>
+                <p class="fw-bold fs-4"> Member
+                <p>🧑‍💻하성수👩‍💻김현정</p>
+            </div>
+        </div>
+
+        <!-- Modal Body -->
+        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">Not available!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Sorry, sir.<br>
+                        All rooms are currently reserved.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+
+        </script>
+
+        <!-- Content Row-->
+        <div class="row gx-4 mb-3 justify-content-center">
+            <div class="col-sm-12 col-md-6 mb-5">
+                <div class="card h-100">
+                    <div class="card-header fw-bold">1차 Project</div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+
+                            <br>
+                            <div class="fw-bold">Skil</div> HTML, CSS, VisualStudioCode
+                    </div>
+                    </h4>
+                    <p class="card-text m-3">
+                        Html, CSS를 활용해서 만든 1차 L4 Hotel 입니다.
+                    </p>
+                    <div class="card-footer text-end">
+                        <a class="btn btn-dark btn-sm" href="./docs/html/index.html">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-5">
+                <div class="card h-100">
+                    <div class="card-header fw-bold">2차 Project</div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+
+                            <br>
+                            <div class="fw-bold">Skil</div> Bootstrap v5.2, HTML, CSS, VisualStudioCode
+                    </div>
+                    </h4>
+                    <p class="card-text m-3">
+                        Bootstrap v5.2, Html, CSS를 활용해서 만든 2차 L4 Hotel Refactoring 입니다.
+                    </p>
+                    <div class="card-footer text-end">
+                        <a class="btn btn-dark btn-sm" href="./docs/refactoring/index.html">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer-->
+            <footer class="py-5 bg-dark">
+                <div class="container px-4 px-lg-5">
+                    <p class="m-0 text-center text-white">Copyright &copy; Arendal Group</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="https://github.com/HHNebula"><i class="fs-1 bi bi-github text-white m-3"></i></a>
+
+                    <a href="https://github.com/HyeonTtora"><i class="fs-1 bi bi-github text-white"></i></a>
+                </div>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
