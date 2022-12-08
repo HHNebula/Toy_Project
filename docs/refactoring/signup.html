@@ -108,12 +108,42 @@
                     <input type="input-addr" class="form-control" id="input-addr" required>
                 </div>
             </div>
+
+            <!-- button -->
             <div class="row justify-content-center pt-5">
                 <div class="form-group col-3 my-3 text-center">
                     <button type="reset" class="btn btn-outline-dark w-100">Restet</button>
                 </div>
+
+                <!-- subit Button trigger modal -->
                 <div class="form-group col-3 my-3 text-center">
-                    <button type="submit" class="btn btn-dark w-100">Submit</button>
+                    <button type="submit"  class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Submit
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    L4 Hotel에 가입해주신 것을 환영합니다.<br>
+                                    <hr>
+                                    Welcome to the L4 Hotel.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </form>
