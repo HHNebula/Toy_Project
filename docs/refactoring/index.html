@@ -2,65 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./refactoring.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>World of L4 - Jeju</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <title>Document</title>
 </head>
 
 <body>
-    <!-- HEADER : HOTEL NAME / NAVBAR-->
-    <header>
-        <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="" data-bs-toggle="collapse" data-bs-target="#navbars">World of L4
-                    Hotel</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse" id="navbars">
-                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Survey</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Statistics</a>
-                        </li>
-                        <hr class="hr border-white">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Log in</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Sign up</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <!-- HEADER : NAV-->
+    <header
+        class="container-fluid bg-dark d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+        <a href="./index.html"
+            class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none fs-4">
+            World of L4 Hotel
+        </a>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="./index.html" class="nav-link px-2 link-light">Home</a></li>
+            <li><a href="" class="nav-link px-2 link-secondary">Survey</a></li>
+            <li><a href="" class="nav-link px-2 link-secondary">Statistics</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-light me-2">Log In</button>
+            <button type="button" class="btn btn-light">Sign Up</button>
+        </div>
     </header>
 
-    <!-- MAIN : MAIN CONTENTS BOX -->
-    <main class="container-fluid mt-5 pt-4">
-        <div id="main-content-box" class="text-center text-white">
-            <div id="main-img-box" class="mc-img">
-                <img class="img-fluid" src="../img/hotel_main.png" alt="hotel">
+    <!-- Main-->
+    <main class="container px-4 px-lg-5">
+        <!-- Hotel info -->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="./img/main.png" alt="..." /></div>
+            <div class="col-lg-5">
+                <p class="fw-bold fs-1">L4 Hotel - Jeju Island</p>
+                <p>Baekrokdam, San 15-1, Topyeong-dong, Seogwipo-si, Jeju Special Self-Governing Province</p>
+                <p>+82 64-888-9999</p>
+                <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalId" href="">Reservation</a>
             </div>
-            <div id="main-text-box" class="w-75 h-75 border border-3 bg-dark bg-opacity-50">
-                <div class="fs-1">Please rate the L4 hotel!</div>
-                <div class="fs-4">help hotel develop through satisfaction evaluation.
+        </div>
+
+        <!-- Modal Body -->
+        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">Not available!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Sorry, sir.<br>
+                        All rooms are currently reserved.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+
+        </script>
+
+        <!-- Content Row-->
+        <div class="container">
+            <div class="row gx-4 mb-3 justify-content-center">
+                <div class="col-sm-12 col-md-5 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">Please leave a review!</h4>
+                            <p class="card-text">
+                                How was your rest at the L4 Hotel? Let us know your experience. I will try to provide
+                                better service. We will send you a Starbucks coffee coupon through a lottery.
+                            </p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <a class="btn btn-dark btn-sm" href="">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-5 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">What is changing?</h4>
+                            <p class="card-text">
+                                What is the L4 Hotel doing to satisfy its customers? View satisfaction survey statistics
+                                and see what's improving!
+                            </p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <a class="btn btn-dark btn-sm" href="">View</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- FOOTER : MAP -->
-
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4 px-lg-5">
+            <p class="m-0 text-center text-white">Copyright &copy; Arendal Group</p>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
