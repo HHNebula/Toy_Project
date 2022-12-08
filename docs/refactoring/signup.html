@@ -51,22 +51,65 @@
         </div>
 
         <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
+            <div class="row justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="form-group col-12 col-md-4 my-3">
+                        <label for="input-first-email">Email address</label>
+                        <input type="email" class="form-control" id="input-first-email" aria-describedby="emailHelp"
+                            placeholder="email@email.com" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group col-12 col-md-4 my-3">
+                        <label for="input-first-email">Password</label>
+                        <input type="password" class="form-control" id="input-first-email" required>
+                    </div>
+                </div>
+                <div class="form-group col-12 col-md-4 my-3">
+                    <label for="input-first-name">Frist Name</label>
+                    <input type="text" class="form-control" id="input-first-name" required>
+                </div>
+                <div class="form-group col-12 col-md-4 my-3">
+                    <label for="input-first-name">Last Name</label>
+                    <input type="text" class="form-control" id="input-last-name" required>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <div class="row justify-content-center">
+                <div class="form-group col-12 col-md-4 my-3">
+                    <label for="input-title">Title of honor</label>
+                    <input type="text" class="form-control" id="input-title" placeholder="Mr / Mrs / Ms / Miss / ..."
+                        required>
+                </div>
+                <div class="form-group col-12 col-md-4 my-3">
+                    <label for="input-birthday">Birthday</label>
+                    <input type="date" class="form-control" id="input-birthday" required>
+                </div>
             </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="row justify-content-center">
+                <div class="form-group col-12 col-md-2 my-3">
+                    <label for="input-country">Country or Region</label>
+                    <input type="text" class="form-control" id="input-country" required>
+                </div>
+                <div class="form-group col-12 col-md-3 my-3">
+                    <label for="input-state">State</label>
+                    <input type="text" class="form-control" id="input-state" required>
+                </div>
+                <div class="form-group col-12 col-md-3 my-3">
+                    <label for="input-city">City</label>
+                    <input type="text" class="form-control" id="input-city" required>
+                </div>
             </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <div class="row justify-content-center">
+                <div class="form-group col-12 col-md-8 my-3">
+                    <label for="input-addr">Address</label>
+                    <input type="input-addr" class="form-control" id="input-addr" required>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-group col-2 my-3 text-center">
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+            </div>
         </form>
     </main>
 
