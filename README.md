@@ -39,25 +39,24 @@ VisualStudioCode, git
 
 ### ⚙️ 구현 화면  
 - GIF  
-<img width="80%" src="./docs/img/L4HOTEL_YOUTUBE.gif">  
+<img width="40%" src="./docs/img/L4HOTEL_YOUTUBE.gif">  
 
-- Home (메인 홈화면 이미지)  
-<img width="80%" src="./docs/img/Home.png">  
+- [ Home (메인 홈화면 이미지)](./docs/img/Home.png)
 
 - Signup (회원가입 화면 이미지)  
-<img width="80%" src="./docs/img/signup.png">  
+<img width="20%" src="./docs/img/signup.png">  
 
 - Log in (로그인 화면 이미지)  
-<img width="80%" src="./docs/img/login.png">  
+<img width="20%" src="./docs/img/login.png">  
 
 - Find_id_pw (ID/PW 찾기 화면 이미지)  
-<img width="80%" src="./docs/img/id_pw_find.png">  
+<img width="20%" src="./docs/img/id_pw_find.png">  
 
 - Survey (설문지 작성 화면 이미지)  
-<img width="80%" src="./docs/img/survey.png">  
+<img width="20%" src="./docs/img/survey.png">  
 
 - Review (설문지 통계 화면 이미지)  
-<img width="80%" src="./docs/img/review.png">  
+<img width="20%" src="./docs/img/review.png">  
 
 
 
