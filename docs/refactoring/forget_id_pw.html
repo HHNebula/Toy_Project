@@ -62,8 +62,42 @@
                         name="input-first-email" required>
                 </div>
             </div>
+
+            <!-- Submit Button modal-->
             <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-dark w-25">Submit</button>
+                <input class="btn btn-dark w-25" type="text" value="Submit" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Forget E-Mail</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <!--Submit modal Text-->
+                            <div class="modal-body text-lg-start">
+                                고객님의 Password를 입력해주신 가입 E-Mail로 발송 도와드리겠습니다.
+                                감사합니다.
+                                <hr>
+                                We will help you send it to the registered E-mail that you entered your password.Thank you.
+                                <hr>
+                                -L4 Hotel-
+
+                            </div>
+                            <!-- modal Agree & close Button -->
+                            <div class="modal-footer d-flex justify-content-center">
+                                <button type="submit" class="btn btn-dark w-50" data-bs-dismiss="modal">OK</button>
+                            </div>
+
+                            <!-- <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-dark w-25">Submit</button>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </form>
     </main>
