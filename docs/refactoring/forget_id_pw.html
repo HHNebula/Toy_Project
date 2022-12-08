@@ -39,7 +39,7 @@
     <main class="container mt-5 pt-5 py-sm-5 py-md-0 px-5 px-lg-5">
         <div class="pt-5 pt-sm-0 text-center mb-3 border-bottom">
             <div class="">
-                <p class="fw-bold fs-1">Welcome to the World of L4 Hotel!</p>
+                <p class="fw-bold fs-1">Find ID / PW</p>
                 <img class="" src="../img/hotelimg.png" alt="">
             </div>
         </div>
@@ -47,6 +47,8 @@
             Please enter the email and last name you entered when you signed up.<br>
             A temporary password will be sent by email.
         </div>
+
+        <!-- FORM -->
         <form action="./index.html" class="mb-5">
             <div class="row justify-content-center">
                 <div class="form-group col-12 col-md-4 my-1">
@@ -58,42 +60,46 @@
             <div class="row justify-content-center">
                 <div class="form-group col-12 col-md-4 mb-3">
                     <label for="input-first-email">Name</label>
-                    <input type="text" class="form-control" id="input-first-email" placeholder="Name"
-                        name="input-first-email" required>
+                    <input type="text" class="form-control" id="input-name" placeholder="Jason Mraz" name="input-name"
+                        required>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="form-group col-12 col-md-4 mb-3">
+                    <button type="submit" class="btn btn-dark w-100" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"">
+                        Get a temporary password
+                    </button>
                 </div>
             </div>
 
             <!-- Submit Button modal-->
-            <div class="d-flex justify-content-center">
-                <input class="btn btn-dark w-25" type="text" value="Submit" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Forget E-Mail</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+            <div class=" d-flex justify-content-center">
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Forget E-Mail</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <!--Submit modal Text-->
+                                    <div class="modal-body text-lg-start">
+                                        입력된 정보가 일치하는 경우 이메일로 임시 비밀번호가 발급됩니다.
+                                        <hr>
+                                        If the information entered matches,<br>
+                                        a temporary password will be issued by email.
+                                    </div>
+                                    <!-- modal Agree & close Button -->
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-dark w-50"
+                                            data-bs-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
                             </div>
-                            <!--Submit modal Text-->
-                            <div class="modal-body text-lg-start">
-                                고객님의 Password를 입력해주신 가입 E-Mail로 발송 도와드리겠습니다.
-                                감사합니다.
-                                <hr>
-                                We will help you send it to the registered E-mail that you entered your password.Thank you.
-                                <hr>
-                                -L4 Hotel-
-                            </div>
-                            <!-- modal Agree & close Button -->
-                            <div class="modal-footer d-flex justify-content-center">
-                                <button type="submit" class="btn btn-dark w-50" data-bs-dismiss="modal">OK</button>
-                            </div>
-                            
                         </div>
-                    </div>
                 </div>
-            </div>
         </form>
     </main>
 
@@ -103,8 +109,17 @@
         <div class="container px-4 px-lg-5">
             <p class="m-0 text-center text-white">Copyright &copy; Arendal Group</p>
         </div>
-        <div class="d-flex justify-content-center">
-            <a href="https://github.com/HHNebula"><i class="fs-1 bi bi-github text-white"></i></a>
+        <div class="d-flex justify-content-center text-center">
+            <a target="_blank" class="text-decoration-none text-white" href="https://github.com/HHNebula">
+                <i class="fs-1 bi bi-github text-white p-2"></i>
+                <br>
+                <span>SOO</span>
+            </a>
+            <a target="_blank" class="text-decoration-none text-white" href="https://github.com/HyeonTtora">
+                <i class="fs-1 bi bi-github text-white p-2"></i>
+                <br>
+                <span>JUNG</span>
+            </a>
         </div>
     </footer>
 
