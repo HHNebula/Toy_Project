@@ -2,6 +2,10 @@
 ![Generic badge](https://img.shields.io/badge/CSS-yellowgreen.svg) ![Generic badge](https://img.shields.io/badge/HTML-green.svg) ![Generic badge](https://img.shields.io/badge/VisualStudioCode-orange.svg) 
 ###  Project Team NAME : <ㅎㅎ> 👻
 -----------------------
+### ⚙️ 구현 화면  
+- GIF  
+<img width="40%" src="./docs/img/L4HOTEL_YOUTUBE.gif">  
+
 ### ✈️ 소개  
 JEJU L4 Hotel Survey 은 호텔의 서비스 품질향상을 위해 설문조사 및 통계 기능을 가지고 있습니다.  
 실제 JEJU L4 Hotel Survey 에 방문한 방문자들을 대상으로 ID,PW,CheckIN일자로 방문자 검증을 후 1:1 설문 서비스를 제공합니다.  
@@ -41,22 +45,13 @@ VisualStudioCode, git
 - GIF  
 <img width="40%" src="./docs/img/L4HOTEL_YOUTUBE.gif">  
 
-- [ Home (메인 홈화면 이미지)](./docs/img/Home.png)
+- [Home (메인 홈화면 이미지)](./docs/img/signup.png)
+- [Signup (회원가입 화면 이미지)]("./docs/img/signup.png)
+- [Log in (로그인 화면 이미지)](./docs/img/login.png)
+- [Find_id_pw (ID/PW 찾기 화면 이미지)](./docs/img/id_pw_find.png)
+- [Survey (설문지 작성 화면 이미지)](./docs/img/survey.png)
+- [Review (설문지 통계 화면 이미지)](./docs/img/review.png)
 
-- Signup (회원가입 화면 이미지)  
-<img width="20%" src="./docs/img/signup.png">  
-
-- Log in (로그인 화면 이미지)  
-<img width="20%" src="./docs/img/login.png">  
-
-- Find_id_pw (ID/PW 찾기 화면 이미지)  
-<img width="20%" src="./docs/img/id_pw_find.png">  
-
-- Survey (설문지 작성 화면 이미지)  
-<img width="20%" src="./docs/img/survey.png">  
-
-- Review (설문지 통계 화면 이미지)  
-<img width="20%" src="./docs/img/review.png">  
 
 
 
