@@ -59,7 +59,13 @@ VisualStudioCode, git
 
 
 ### [2차]
-- 
+- [Home (메인 홈화면 이미지)](./docs/refactoring/img/home.png)
+- [Signup (회원가입 화면 이미지)](./docs/refactoring/img/signup.png)
+- [Log in (로그인 화면 이미지)](./docs/refactoring/img/login.png)
+- [Find_id_pw (ID/PW 찾기 화면 이미지)](./docs/refactoring/img/forgetidpw.png)
+- [Survey (설문지 작성 화면 이미지)](./docs/refactoring/img/survey.png)
+- [Review (설문지 통계 화면 이미지)](./docs/refactoring/img/stisfaction.png)
+
 
 -----------------------
 
