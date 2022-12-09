@@ -6,6 +6,7 @@
 ### ⚙️ 구현 화면  
 - [L4 Hotel Survey (1차)](https://hhnebula.github.io/Toy_Project/docs/html/index.html)     
 <img width="40%" src="./docs/img/L4HOTEL_YOUTUBE.gif">  
+
 - [L4 Hotel Survey (2차)](https://hhnebula.github.io/Toy_Project/docs/refactoring/index.html)  
 <img width="40%" src="./docs/refactoring/img/World of L4 - Jeju - bootstrap.gif">  
 
