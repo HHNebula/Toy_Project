@@ -123,7 +123,7 @@ VisualStudioCode, git
     <!-- 생략 -->
 ```
 -----------------------
-
+##[1차]  
 ### 화면 정의서
 - [화면정의서](./docs/Storyboard/StoryBoard.pdf)  
 
@@ -131,7 +131,7 @@ VisualStudioCode, git
 - [요구사항 정의서](./docs/Storyboard/Requirements.pdf)  
 
 ### HTML  
-- [index](/docs/index.html)  
+- [index](/docs/html/)  
 - [signup](/docs/html/signup.html)  
 - [login](/docs/html/login.html)  
 - [find_id_pw](/docs/html/find_id_pw.html)  
@@ -146,6 +146,18 @@ VisualStudioCode, git
 - [signup](/docs/css/signup.css)  
 - [survey](/docs/css/survey.css)  
 
+##[2차]  
+
+### HTML  
+- [index](/docs/refactoring/index.html)  
+- [signup](/docs/refactoring/signup.html)  
+- [login](/docs/refactoring/login.html)  
+- [find_id_pw](/docs/refactoring/forget_id_pw.html)  
+- [review](/docs/refactoring/statistics.html)  
+- [survey](/docs/refactoring/survey.html)  
+
+### CSS
+- [index](/docs/css/index.css)  
 -----------------------
 ### 🤖 프로젝트 성격 (동기)
 해당 프로젝트는 1차적으로 Java로 구현 하였던 프로젝트입니다 (이전 프로젝트 [L4 Hotel Survey_Java ver](https://github.com/HyeonTtora/KH_SemiProject/blob/master/README.md) ) 저희 팀은 이전 프로젝트를 2차로 front로 구현하다보니 프로젝트 기간이 더 짧게 진행된 만큼 front에서의 강점을 최대한 명확하게 보이게 구현할 수 있는 부분 위주로 고민 해보았습니다. 화면으로 보여지는 것은 사용자가 콘솔창보다 더 직관적으로 확인을 할 수 있는 점이 대표적인 장점이라고 생각이 되었습니다. 직관적으로 확인할 수 있는 부분을 활용해 설문 대상자가 설문 또는 회원가입 등 필수 입력값을 입력 시 오타, 공란 등으로 놓칠 수 있는 부분을 더 직관적이게 표현한다면 오답,정보미입력 등을 줄이고, 사용자 또한 어떤 것이 오입력,미입력 되었는지 더 쉽게 확인할 수 있지 않을까? 라는 생각을 가지고 접근하게 되었습니다. 
