@@ -48,7 +48,7 @@ VisualStudioCode, git
 
 ### ⚙️ 구현 화면  
 
-[1차]
+### [1차]
 - [Home (메인 홈화면 이미지)](./docs/img/signup.png)
 - [Signup (회원가입 화면 이미지)]("./docs/img/signup.png)
 - [Log in (로그인 화면 이미지)](./docs/img/login.png)
@@ -57,7 +57,7 @@ VisualStudioCode, git
 - [Review (설문지 통계 화면 이미지)](./docs/img/review.png)
 
 
-[2차]
+### [2차]
 - 
 
 -----------------------
@@ -123,7 +123,7 @@ VisualStudioCode, git
     <!-- 생략 -->
 ```
 -----------------------
-##[1차]  
+### [1차]  
 ### 화면 정의서
 - [화면정의서](./docs/Storyboard/StoryBoard.pdf)  
 
@@ -131,7 +131,7 @@ VisualStudioCode, git
 - [요구사항 정의서](./docs/Storyboard/Requirements.pdf)  
 
 ### HTML  
-- [index](/docs/html/)  
+- [index](/docs/html/index.html)  
 - [signup](/docs/html/signup.html)  
 - [login](/docs/html/login.html)  
 - [find_id_pw](/docs/html/find_id_pw.html)  
@@ -146,7 +146,7 @@ VisualStudioCode, git
 - [signup](/docs/css/signup.css)  
 - [survey](/docs/css/survey.css)  
 
-##[2차]  
+### [2차]  
 
 ### HTML  
 - [index](/docs/refactoring/index.html)  
