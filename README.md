@@ -95,3 +95,33 @@ VisualStudioCode, git
 
 -----------------------
 
+### 📝 부트스트랩 버전 주요 코드
+
+#### 회원 가입 페이지 내 약관 동의 모달
+
+![Sign Up](./docs/refactoring/img/cap_img2.png)
+
+```html
+<!-- 체크 박스와 라벨에 동일한 모달 속성을 부여하여 클릭 시 체크 및 약관 동의 모달 노출 -->
+<div class="row justify-content-center">
+    <div class="form-group col-12 col-md-8 my-3">
+        <!-- 약관 동의 체크박스 -->
+        <input type="checkbox" name="agree" id="agree" required data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <!-- 약관 동의 라벨 -->
+        <label for="agree">
+            <p data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                I accept the terms and conditions of
+                personal information collection
+                </p>
+        </label>
+    </div>
+</div>
+
+<!-- 개인정보 약관 modal-->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <!-- 생략 -->
+```
