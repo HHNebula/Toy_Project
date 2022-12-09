@@ -125,3 +125,33 @@ VisualStudioCode, git
             <div class="modal-header">
             <!-- 생략 -->
 ```
+#### 통계 페이지 컬럼명을 아이콘으로 대체
+
+![Sign Up](./docs/refactoring/img/cap_img1.png)
+
+```html
+<table class="table table-striped table-responsive">
+    <thead>
+        <tr>
+            <th class="w-25" scope="col">
+                <span class="material-symbols-outlined">sort</span>
+            </th>
+            <th scope="col">
+                <span class="material-symbols-outlined">sentiment_very_satisfied</span>
+            </th>
+            <th scope="col">
+                <span class="material-symbols-outlined">sentiment_satisfied</span>
+            </th>
+            <th scope="col">
+                <span class="material-symbols-outlined">sentiment_neutral</span>
+            </th>
+            <th scope="col">
+                <span class="material-symbols-outlined">sentiment_dissatisfied</span>
+            </th>
+            <th scope="col">
+                <span class="material-symbols-outlined">sentiment_very_dissatisfied</span>
+            </th>
+        </tr>
+    </thead>
+    <!-- 생략 -->
+```
