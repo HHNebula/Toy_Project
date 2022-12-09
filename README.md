@@ -123,12 +123,13 @@ VisualStudioCode, git
     <!-- 생략 -->
 ```
 -----------------------
-### [1차]  
 ### 화면 정의서
 - [화면정의서](./docs/Storyboard/StoryBoard.pdf)  
 
 ### 요구사항 정의서
 - [요구사항 정의서](./docs/Storyboard/Requirements.pdf)  
+  
+### [1차]  
 
 ### HTML  
 - [index](/docs/html/index.html)  
