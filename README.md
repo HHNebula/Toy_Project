@@ -129,6 +129,41 @@ VisualStudioCode, git
     </thead>
     <!-- 생략 -->
 ```
+
+#### Survey 를 Card와 radio를 이용해서 구현
+![Sign Up](./docs/refactoring/img/surveybutton.png)
+```html
+
+   <div class="card mb-3 bg-opacity-50" style="width: 100%;">
+                            <div class="card-header">Customer Satisfaction Survey</div>
+                            <div class="list-group list-group-flush text-dark fs-5">
+                                <li class="list-group-item mb-4 pb-4">
+                                    <p class="mt-3">1. 호텔을 찾아오시는 길은 편리하셨습니까?</p>
+                                    <div class="btn-group">
+                                        <label class="btn btn-dark " for="traffic_Very_satisfied">
+                                            <input type="radio" name="traffic" id="traffic_Very_satisfied"
+                                                value="Very_satisfied" autocomplete="off" required> 매우만족 <br>
+                                        </label>
+                                        <label class="btn btn-dark" for="traffic_Satisfied">
+                                            <input type="radio" name="traffic" id="traffic_Satisfied" value="Satisfied"
+                                                autocomplete="off" required>
+                                            만족
+                                        </label>
+                                        <label class="btn btn-dark" for="traffic_normal">
+                                            <input type="radio" name="traffic" id="traffic_normal" value="normal"
+                                                autocomplete="off" required> 보통
+                                        </label>
+                                        <label class="btn btn-dark" for="traffic_Complained">
+                                            <input type="radio" name="traffic" id="traffic_Complained"
+                                                value="Complained" autocomplete="off" required> 불만
+                                        </label>
+                                        <label class="btn btn-dark" for="traffic_Dissatisfied">
+                                            <input type="radio" name="traffic" id="traffic_Dissatisfied"
+                                                value="Dissatisfied" autocomplete="off" required> 매우불만
+                                        </label>
+                                    </div>
+                                </li>
+```
 -----------------------
 ### 화면 정의서
 - [화면정의서](./docs/Storyboard/StoryBoard.pdf)  
